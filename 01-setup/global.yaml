@@ -1,0 +1,11 @@
+config:
+  project: "jenuine-dev"
+  stateBucket: "terraform-states"
+  bucketPrefix: "01-setup"
+
+providers:
+  google: 
+    source: "hashicorp/google"
+    version: "~> 3.4.0"
+    project: "jenuine-dev"
+    region: "asia-southeast1"
