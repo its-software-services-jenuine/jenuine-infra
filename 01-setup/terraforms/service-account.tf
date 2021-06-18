@@ -5,7 +5,7 @@ resource "google_service_account" "github-action" {
 
 resource "google_service_account_iam_binding" "github-action-iam" {
   service_account_id = google_service_account.github-action.name
-  role               = "roles/owner"
+  role               = "roles/Owner"
 
   members = []
 }
