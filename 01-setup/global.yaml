@@ -1,6 +1,6 @@
 config:
   project: "jenuine-dev"
-  stateBucket: "terraform-states"
+  stateBucket: "jenuine-terraform-states"
   bucketPrefix: "01-setup"
 
 providers:
